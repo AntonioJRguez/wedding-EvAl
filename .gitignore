@@ -1,0 +1,10 @@
+# SO
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+.vscode/
+
+# Imagen original sin procesar del patrón (ya convertida a images/pattern-damask.png)
+images/WhatsApp Image*.jpeg
