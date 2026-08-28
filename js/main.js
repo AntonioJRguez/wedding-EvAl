@@ -169,20 +169,6 @@
   }
 
   /* ---------------------------------------------------------------------
-     PATRÓN DE FONDO — foco tipo linterna que sigue al cursor
-     --------------------------------------------------------------------- */
-  const patternSections = document.querySelectorAll(".has-pattern");
-  if (patternSections.length && canHover && !reducedMotion) {
-    patternSections.forEach((section) => {
-      section.addEventListener("mousemove", (e) => {
-        const rect = section.getBoundingClientRect();
-        section.style.setProperty("--spot-x", `${e.clientX - rect.left}px`);
-        section.style.setProperty("--spot-y", `${e.clientY - rect.top}px`);
-      });
-    });
-  }
-
-  /* ---------------------------------------------------------------------
      RSVP — acompañante condicional + envío solo-frontend
      --------------------------------------------------------------------- */
   const acompananteCheck = document.getElementById("acompanante-check");
