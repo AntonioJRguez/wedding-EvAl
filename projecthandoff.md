@@ -6,12 +6,16 @@ Sitio estático (HTML/CSS/JS puro, sin build ni dependencias de npm). Abrir `ind
 ## Estructura de archivos
 
 ```
-index.html
-css/style.css
-js/main.js
+index.html             ← página principal (la que sirve GitHub Pages): sin marco, símbolo de anillos entrelazados
+css/style-old.css       ← hoja de estilos de index.html
+withpictureframe.html  ← versión secundaria/referencia: hero con marco ornamental (marco-01.svg) + flores a los lados
+css/style.css           ← hoja de estilos de withpictureframe.html
+js/main.js              ← compartido por ambas páginas
 fonts/Nouveau Nostalgia.ttf
 images/README.txt      ← nombres de archivo y proporciones que espera cada foto
 ```
+
+`index.html` y `withpictureframe.html` se intercambiaron el 2026-08-29 (antes era al revés). `withpictureframe.html` se conserva a propósito como referencia de diseño — no borrar — para reutilizar ideas suyas (el marco, la disposición de flores, etc.) en la web principal más adelante. Cada una tiene un botón flotante rosa chillón "⚠ DEV: ..." (a propósito desentona con el diseño) que enlaza a la otra, para poder compararlas.
 
 ## Dirección de diseño
 
