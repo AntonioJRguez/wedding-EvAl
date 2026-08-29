@@ -356,6 +356,13 @@ body.has-custom-cursor .photo { cursor: none; }
   padding-inline: .12em;
 }
 
+.hero__rings {
+  width: clamp(2rem, 5vw, 2.8rem);
+  height: auto;
+  color: var(--accent-home);
+  margin-top: .9rem;
+}
+
 .hero__meta {
   margin-top: 2rem;
   display: flex;
