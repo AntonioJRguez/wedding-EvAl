@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Eva × Alfonso — 18.09.2027</title>
+<title>Eva × Alfonso — 18.09.2027 (versión antigua)</title>
 <meta name="description" content="Eva &amp; Alfonso se casan el 18 de septiembre de 2027 en Ciudad Real.">
+<meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23020202'/%3E%3Ctext x='50' y='60' font-family='Georgia,serif' font-size='34' fill='%23F7F5F0' text-anchor='middle'%3EEA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-old.css">
 <style>
   .dev-version-link {
     position: fixed;
@@ -32,7 +33,7 @@
 </head>
 <body>
 
-<a class="dev-version-link" href="old.html">⚠ DEV: VER VERSIÓN ANTIGUA (SIN MARCO) →</a>
+<a class="dev-version-link" href="index.html">⚠ DEV: VER OPCIÓN 1 (VERSIÓN ACTUAL) →</a>
 
 <div id="cursor-dot" aria-hidden="true"></div>
 
@@ -41,11 +42,11 @@
 <header class="site-nav" id="siteNav">
   <a href="#home" class="site-nav__mark">E × A</a>
   <nav class="site-nav__links" aria-label="Navegación principal">
-    <a href="#home">Inicio</a>
+    <a href="#home">Index</a>
     <a href="#historia">Historia</a>
     <a href="#boda">La boda</a>
     <a href="#programa">Programa</a>
-    <a href="#rsvp">Formulario</a>
+    <a href="#rsvp">RSVP</a>
     <a href="#lugar">Lugar</a>
     <a href="#musica">Música</a>
   </nav>
@@ -56,11 +57,11 @@
 
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-menu__close" id="menuClose">Cerrar ×</button>
-  <a href="#home">Inicio</a>
+  <a href="#home">Index</a>
   <a href="#historia">Historia</a>
   <a href="#boda">La boda</a>
   <a href="#programa">Programa</a>
-  <a href="#rsvp">Formulario</a>
+  <a href="#rsvp">RSVP</a>
   <a href="#lugar">Lugar</a>
   <a href="#musica">Música</a>
 </div>
@@ -70,41 +71,29 @@
   <!-- ============================== HOME ============================== -->
   <section class="hero" id="home">
     <div class="hero__center" data-reveal>
-      <div class="hero__emblem">
-        <img class="hero__flower hero__flower--left" src="images/flor-1.svg" alt="" aria-hidden="true">
-        <div class="hero__frame">
-          <img class="hero__frame-border" src="images/marco-01.svg" alt="" aria-hidden="true">
-          <div class="hero__frame-content">
-            <h1 class="hero__names">
-              <img class="hero__title" src="images/titulo-01.svg" alt="Eva y Alfonso — 18 de septiembre de 2027">
-            </h1>
+      <h1 class="hero__names">Eva <span class="and">y</span> Alfonso</h1>
+      <p class="hero__meta">
+        <strong>18 · 09 · 2027</strong>
+        <span>Ciudad Real — sede por confirmar</span>
+      </p>
 
-            <p class="hero__meta">
-              <strong>18 · 09 · 2027</strong>
-              <span>Ciudad Real — sede por confirmar</span>
-            </p>
-
-            <div class="countdown" id="countdown" aria-hidden="true">
-              <div class="countdown__unit">
-                <span class="countdown__value" data-unit="days">000</span>
-                <span class="countdown__label">Días</span>
-              </div>
-              <div class="countdown__unit">
-                <span class="countdown__value" data-unit="hours">00</span>
-                <span class="countdown__label">Horas</span>
-              </div>
-              <div class="countdown__unit">
-                <span class="countdown__value" data-unit="minutes">00</span>
-                <span class="countdown__label">Min</span>
-              </div>
-              <div class="countdown__unit">
-                <span class="countdown__value" data-unit="seconds">00</span>
-                <span class="countdown__label">Seg</span>
-              </div>
-            </div>
-          </div>
+      <div class="countdown" id="countdown" aria-hidden="true">
+        <div class="countdown__unit">
+          <span class="countdown__value" data-unit="days">000</span>
+          <span class="countdown__label">Días</span>
         </div>
-        <img class="hero__flower hero__flower--right" src="images/flor-2.svg" alt="" aria-hidden="true">
+        <div class="countdown__unit">
+          <span class="countdown__value" data-unit="hours">00</span>
+          <span class="countdown__label">Horas</span>
+        </div>
+        <div class="countdown__unit">
+          <span class="countdown__value" data-unit="minutes">00</span>
+          <span class="countdown__label">Min</span>
+        </div>
+        <div class="countdown__unit">
+          <span class="countdown__value" data-unit="seconds">00</span>
+          <span class="countdown__label">Seg</span>
+        </div>
       </div>
     </div>
 
@@ -245,7 +234,7 @@
   <section class="section" id="rsvp">
     <div class="container">
       <div class="section-head" data-reveal>
-        <span class="eyebrow">05 / Formulario</span>
+        <span class="eyebrow">05 / RSVP</span>
         <h2 class="section-title">Confirma tu asistencia</h2>
       </div>
 
@@ -369,7 +358,7 @@
         <div class="track-row"><span class="n">05</span><span>Título de la canción <span class="artist">— Artista</span></span><span class="dur">3:12</span></div>
       </div>
 
-      <a class="musica__cta" href="#rsvp" data-reveal>¿Falta tu canción? Sugiérela en el formulario →</a>
+      <a class="musica__cta" href="#rsvp" data-reveal>¿Falta tu canción? Sugiérela en el RSVP →</a>
     </div>
   </section>
 
@@ -378,7 +367,7 @@
 <footer class="site-footer">
   <span class="site-footer__mark">E × A</span>
   <span>18.09.2027 — Ciudad Real</span>
-  <span>Hecho con cariño para Eva &amp; Alfonso.</span>
+  <span>Hecho con cariño (y algo de humor) para Eva &amp; Alfonso.</span>
   <a href="#home" class="site-footer__top">Volver arriba ↑</a>
 </footer>
 
