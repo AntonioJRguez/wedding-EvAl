@@ -8,3 +8,6 @@ desktop.ini
 
 # Imagen original sin procesar del patrón (ya convertida a images/pattern-damask.png)
 images/WhatsApp Image*.jpeg
+
+# Documento interno de trabajo, no se publica
+projecthandoff.md
