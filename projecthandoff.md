@@ -20,8 +20,8 @@ Editorial minimalista, más revista de arte/diseño independiente que web de bod
 **Principio de proyecto:** siempre se prioriza CSS lo más moderno posible, pero adaptado a lo más válido/compatible para todos los navegadores — evitar depender de features de borde sin buen soporte.
 
 **Tipografía:**
-- Display: `Nouveau Nostalgia` (self-hosted, `/fonts`) — "Eva y Alfonso" del hero y todo lo demás, ya si hace acentos. Monograma "E × A" (nav/footer).
-- Serif editorial: `Fraunces` (Google Fonts, con itálica) — sin uso actualmente (todo lo que la usaba pasó a `Nouveau Nostalgia`); se deja importada como reserva para un futuro cuerpo de texto destacado.
+- Display: `Nouveau Nostalgia` (self-hosted, `/fonts`) — "Eva y Alfonso" del hero y todos los títulos importantes,los demás puedes usar `Fraunces`. Monograma "E × A" (nav/footer).
+- Serif editorial: `Fraunces` (Google Fonts, con itálica) — pull-quote de Historia, títulos del Programa, enlaces del menú móvil. Tiene acentos completos.
 - Sans funcional: `Inter` (Google Fonts) — cuerpo de texto.
 - Mono técnico: `Space Mono` (Google Fonts) — etiquetas, números, nav, meta.
 
