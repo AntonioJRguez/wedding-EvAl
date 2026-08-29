@@ -6,8 +6,9 @@ desktop.ini
 # Editor
 .vscode/
 
-# Imagen original sin procesar del patrón (ya convertida a images/pattern-damask.png)
+# Imagenes internas de trabajo, no se publica
 images/WhatsApp Image*.jpeg
+images/patron-1.jpeg
 
 # Documento interno de trabajo, no se publica
 projecthandoff.md
