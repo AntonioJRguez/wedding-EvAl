@@ -354,7 +354,10 @@ body.has-custom-cursor .photo { cursor: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 13%;
+  /* 13% of the frame's own width — a plain 13% here resolves against
+     .hero__emblem (the flex row), which grows with the flanking
+     flowers, shrinking this padding unpredictably at wide viewports. */
+  padding: clamp(33.8px, 11.96vw, 72.8px);
   flex-shrink: 0;
 }
 .hero__frame-border {
@@ -375,10 +378,33 @@ body.has-custom-cursor .photo { cursor: none; }
   gap: clamp(1rem, 4vw, 2.25rem);
 }
 
-.hero__names { margin: 0; width: 100%; }
+.hero__names {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.55rem, 9.2vw, 3.3rem);
+  line-height: 1.1;
+  letter-spacing: -.01em;
+  color: var(--color-heading-soft);
+  white-space: nowrap;
+}
+.hero__names .and {
+  font-size: .5em;
+  font-style: italic;
+  color: var(--accent-home);
+  vertical-align: -0.1em;
+  padding-inline: .12em;
+}
 .hero__title {
   width: 100%;
   height: auto;
+}
+
+.hero__rings {
+  width: clamp(1.7rem, 4.6vw, 2.5rem);
+  height: auto;
+  color: var(--accent-home);
 }
 
 .hero__flower {
